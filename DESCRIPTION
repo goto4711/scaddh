@@ -1,0 +1,16 @@
+Package: scaddh
+Title: SCA-DDH
+Version: 0.0.1
+Authors@R: person("Tobias", "Blanke", email = "tobias.blanke@kcl.ac.uk", role = c("aut", "cre"))
+Description: Support functions and data for KCL DDH Social and Cultural Analytics.
+Depends: R (>= 3.3.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends:
+  tm,
+  igraph,
+  stringr,
+  arules,
+  rvest
+RoxygenNote: 6.0.1
