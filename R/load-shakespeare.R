@@ -6,6 +6,7 @@
 #' @return shakepeare text prepared
 #' @export
 load_shakespeare <- function(){
+  data(shakespeare, package="scaddh")
   shakespeare <- shakespeare[-(1:173)]
   shakespeare <- shakespeare[-(124195:length(shakespeare))]
   
